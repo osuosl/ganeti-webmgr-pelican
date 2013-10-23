@@ -30,5 +30,8 @@ DEFAULT_PAGINATION = 4
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+# Specify name of a theme installed via the pelican-themes tool
+THEME = "./projectsite-pelican-theme"
+
 # Create navigation bar for theme
 MENUITEMS = [('Home', '/index.html'),('About', '/index.html'),('Learn', '/index.html'),('Download', '/index.html')]

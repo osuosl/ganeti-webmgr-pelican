@@ -1,0 +1,3 @@
+[submodule "projectsite-pelican-theme"]
+	path = projectsite-pelican-theme
+	url = https://github.com/osuosl/projectsite-pelican-theme.git
