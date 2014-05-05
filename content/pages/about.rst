@@ -1,4 +1,4 @@
-About Ganeti Web Manager
+About GWM
 ########################
 
 :slug: about

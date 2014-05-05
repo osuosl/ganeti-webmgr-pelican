@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+PATH = "content"
 AUTHOR = u'OSU Open Source Lab'
 SITENAME = u'Ganeti Web Manager'
 SITEURL = ''
@@ -28,10 +29,12 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 4
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 # Specify name of a theme installed via the pelican-themes tool
 THEME = "./projectsite-pelican-theme"
 
 # Create navigation bar for theme
-MENUITEMS = [('Home', '/index.html'),('About', '/index.html'),('Learn', '/index.html'),('Download', '/index.html')]
+MENUITEMS = [('Home', '/index.html')]
+
+index = '/content/index/index.rst'
