@@ -32,9 +32,17 @@ DEFAULT_PAGINATION = 4
 RELATIVE_URLS = True
 
 # Specify name of a theme installed via the pelican-themes tool
-THEME = "./projectsite-pelican-theme"
+THEME = "projectsite-pelican-theme"
 
 # Create navigation bar for theme
 MENUITEMS = [('Home', '/index.html')]
 
-index = '/content/index/index.rst'
+#Things which must be included:
+# main.png
+# index.rst
+
+SHORTDESC = "Ganeti Web Manager is a Django based web application that allows administrators and clients access to their Ganeti clusters."
+
+#Uncomment to include github ribbon
+#GITHUB_URL = 
+
