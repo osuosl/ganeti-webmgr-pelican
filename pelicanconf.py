@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 PATH = "content"
 AUTHOR = u'OSU Open Source Lab'
 SITENAME = u'Ganeti Web Manager'
-SITEURL = ''
+SITEURL = '/home/lucyw/githubs/ganeti-webmgr-pelican'
 
 TIMEZONE = 'US/Pacific'
 
@@ -37,11 +37,13 @@ THEME = "projectsite-pelican-theme"
 # Create navigation bar for theme
 MENUITEMS = [('Home', '/index.html')]
 
-#Things which must be included:
-# main.png
-# index.rst
-
 SHORTDESC = "Ganeti Web Manager is a Django based web application that allows administrators and clients access to their Ganeti clusters."
+
+HOME_IMAGE = 'images/computer.png'
+
+STATIC_PATHS = ['images']
+
+DOCSURL = 'https://ganeti-webmgr.readthedocs.org/en/latest/'
 
 #Uncomment to include github ribbon
 #GITHUB_URL = 

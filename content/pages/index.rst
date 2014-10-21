@@ -1,38 +1,28 @@
-Getting started
-###############
+====
+Home
+====
 :slug: index
-:index: index
-:url:
-:save_as: index.html
+:Index: index
 
-1. **Install dependencies:** 
+Getting Started
+===============
+
+1. Install dependencies: 
 	Python, Pip, Fabric, and Viruatlenv
-2. **Get the Ganeti Web Manager code:** 
-			 Clone from the `repository <https://github.com/osuosl/ganeti_webmgr>`_  or download a `release tarball <link>`_
-3. **Deploy fabric environment:** 
+2. Get the Ganeti Web Manager code: 
+	Clone from the `repository <https://github.com/osuosl/ganeti_webmgr>`_  or download a `release tarball <link>`_
+3. Deploy fabric environment: 
 
-.. code-block:: bash
+.. raw:: html
+    
+    <p class="code">fab dev deploy</p>  or <p class="code">fab prod deploy</p><br><br>
 
-	fab dev deploy
+4. Configure Settings: 
+	Copy settings.py.dist to settings.py and make any modifications
+5. Sync database, then run the server:
 
-*or*
-
-.. code-block:: bash
-
-	fab prod deploy
-
-4. **Configure Settings:** 
-	Copy **settings.py.dist** to **settings.py** and make any modifications
-5. **Sync database, then run the server:**
-
-.. code-block:: bash
-
-	./manage.py syncdb -migrate
-
-*then*
-
-.. code-block:: bash
-
-	./manage.py runserver
+.. raw:: html
+	
+    <p class="code">./manage.py syncdb -migrate</p>  then  <p class="code">./manage.py runserver</p>
 
 
